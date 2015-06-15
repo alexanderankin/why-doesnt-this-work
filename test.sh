@@ -7,10 +7,10 @@ echo ""
 curl "$a""report/1"
 echo ""
 # post new
-curl "$a""report" -X POST--data '{"tknum":5,"body":"message"}'
+curl "$a""report" -X POST --data '{"tknum":5,"body":"message"}'
 echo ""
 # put old
-curl "$a""report/2" -X PUT --data '{"body":"message"}'
+# curl "$a""report/2" -X PUT --data '{"body":"message"}'
 echo ""
 
 ### sqlite> .schema reports
